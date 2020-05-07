@@ -7,7 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="restassuredproject" />
+        <module name="rest-assured-project" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rest-assured-project" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,5 +1,6 @@
 package com.app.tests;
 
+import com.app.utlities.BookITRestUtility;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
